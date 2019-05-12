@@ -41,7 +41,7 @@
 	​
 	<!-- Appender to log to file in a JSON format -->
 	<appender name="logstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-		<destination>mark32.ddns.net:5000</destination>
+		<destination>192.168.15.14:5044</destination>
 		<encoder  class="net.logstash.logback.encoder.LogstashEncoder">
 			<includeContext>true</includeContext>.
 			<providers>
